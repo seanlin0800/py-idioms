@@ -1,8 +1,13 @@
 # 別用 implicit relative imports
 
+PEP 8:
+> Implicit relative imports should *never* be used and have been removed in Python 3.
+
 Python 3 已經移除了 **implicit relative imports**，在 2.7 雖然還是可以用，但為了避免麻煩，請務必使用 **absolute imports** 或者 **explicit relative imports**。
 
 有的風格指南，例如 [Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#22-imports) ，建議只用 **absolute imports**，我想是因為歷史因素，因為 Python 2.5 以前沒有 **explicit relative imports**。
+
+> Do not use relative names in imports. Even if the module is in the same package, use the full package name. This helps prevent unintentionally importing a package twice.
 
 假設我們的檔案結構如下
 
