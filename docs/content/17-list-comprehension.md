@@ -5,7 +5,7 @@ Python 2.7 以後有三種 comprehensions，在此之前只有 **list comprehens
 * dictionary comprehensions
 * set comprehensions
 
-其中 **list comprehensions** 是最常見到的，使用時機是當你需要從 iterable 製造出另一個 list 時，適當地使用可以讓程式碼更清楚，而且比起 `map()` 以及 `filter()` 來得更簡單且有彈性。所謂的「適當地使用」要看你所處的團隊怎麼定義，例如 [Google Python style guide](https://google-styleguide.googlecode.com/svn/trunk/pyguide.html?showone=List_Comprehensions#List_Comprehensions) 不建議使用多個 for 和 filter expressions。
+其中 **list comprehensions** 是最常見到的，使用時機是當你需要從 iterable 製造出另一個 list 時，適當地使用可以讓程式碼更清楚，而且比起 `map()` 以及 `filter()` 來得更簡單且有彈性。所謂的「適當地使用」要看你所處的團隊怎麼定義，例如 [Google Python style guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#27-comprehensions--generator-expressions) 不建議使用多個 for 和 filter expressions。
 
 慣用
 

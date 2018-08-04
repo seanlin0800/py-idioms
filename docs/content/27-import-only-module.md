@@ -1,6 +1,6 @@
 # 儘量少用 `from module import obj`
 
-[Google Python Style Guide](https://google-styleguide.googlecode.com/svn/trunk/pyguide.html#Imports) 以及 [OpenStack Style Guidelines](http://docs.openstack.org/developer/hacking/#imports) 建議只能 import modules，其優點有：
+[Google Python Style Guide](https://github.com/google/styleguide/blob/gh-pages/pyguide.md#22-imports) 以及 [OpenStack Style Guidelines](https://docs.openstack.org/hacking/latest/user/hacking.html#imports) 建議只能 import modules，其優點有：
 
 - 閱讀程式碼時不必查詢就能知道該函式或類別來自哪個 module
 - 避免 import 進來的物件名稱產生衝突

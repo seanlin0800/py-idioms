@@ -2,7 +2,7 @@
 - [If Statements](content/02-if-statement.md)
 - [請愛用 in](content/03-in-operator.md)
 - [Tuple 的妙用](content/04-tuple.md)
-- [Conditional Expressions](content/05-tuple.md)
+- [Conditional Expressions](content/05-conditional-expression.md)
 - [善用 `enumerate`](content/06-enumerate.md)
 - [負數索引值](content/07-negative-index.md)
 - [太長怎麼辦](content/08-tip-for-long-line.md)
